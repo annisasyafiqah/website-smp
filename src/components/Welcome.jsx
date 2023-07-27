@@ -21,7 +21,6 @@ const Welcome = () => {
 				<li class="menu_mm"><a href="#">Profil Sekolah</a></li>
 				<li class="menu_mm"><a href="#">Courses</a></li>
 				<li class="menu_mm"><a href="#">Blog</a></li>
-				<li class="menu_mm"><a href="#">Page</a></li>
 				<li class="menu_mm"><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>

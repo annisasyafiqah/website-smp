@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
-import "./index.css";
+import "../src/style/index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
