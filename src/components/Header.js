@@ -1,7 +1,9 @@
-import logo from '../logo_spensa.png';
+import logo from '../images/logo_spensa.png';
 import "../style/main.css";
 import "../style/responsive.css";
-import { MDBIcon } from 'mdb-react-ui-kit';
+import { FiPhone } from 'react-icons/fi';
+import { NavLink } from 'react-router-dom';
+import { IoMdMail } from 'react-icons/io';
 
 function Header() {
     return (
@@ -17,11 +19,11 @@ function Header() {
 								<ul class="top_bar_contact_list justify-content-start ">
 									<li><div class="question">Punya pertanyaan terkait SMP Negeri 1 Atambua?</div></li>
 									<li>
-										<MDBIcon fas icon="phone" />
+									<FiPhone size={20} style={{ color: "white" }}/>
 										<div>(0389)21224</div>
 									</li>
 									<li>
-										<MDBIcon fas icon="envelope" />
+									<IoMdMail size={20} style={{ color: "white" }}/>
 										<div>smpnatambua1@gmail.com</div>
 									</li>
 								</ul>
@@ -48,13 +50,22 @@ function Header() {
 								</a>
 							</div>
 							<nav class="main_nav_contaner ml-auto">
-								<ul class="main_nav">
-									<li class="active"><a href="#">Home</a></li>
-									<li><a href="about.html">Profil Sekolah</a></li>
-									<li><a href="courses.html">Courses</a></li>
-									<li><a href="blog.html">Blog</a></li>
-									<li><a href="#">Page</a></li>
-									<li><a href="contact.html">Contact</a></li>
+								<ul class="main_nav mr-0">
+									<li class="active">
+										<NavLink to={"/dashboard"}>Home
+										</NavLink></li>
+									<li>
+										<NavLink to={"/profilSekolah"}>Profil Sekolah
+										</NavLink></li>
+									<li>
+										<NavLink to={"/blog"}>Blog
+										</NavLink></li>
+									<li>
+										<NavLink to={"/lokasi"}>Lokasi
+										</NavLink></li>
+									<li>
+										<NavLink to={"/galeri"}>Galeri
+										</NavLink></li>
 								</ul>
 							</nav>
 						</div>

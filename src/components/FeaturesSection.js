@@ -1,10 +1,10 @@
 import React from 'react';
 import "../style/main.css"
 import "../style/responsive.css"
-import Gambar1 from "../KuMer.jpg";
-import Gambar2 from "../Upacara.jpg";
-import Gambar3 from "../KuMer.jpg";
-import Gambar4 from "../KuMer.jpg";
+import Gambar1 from "../images/KuMer.jpg";
+import Gambar2 from "../images/Upacara.jpg";
+import Gambar3 from "../images/KuMer.jpg";
+import Gambar4 from "../images/KuMer.jpg";
 
 
 const FeaturesSection = () => {

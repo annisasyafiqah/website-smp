@@ -27,9 +27,9 @@ const Footer = () => {
                     <div className="footer_title">Hubungi Kami</div>
                     <div className="footer_contact_info">
                       <ul>
-                        <li>Email: smpnatambua1@gmail.com</li>
-                        <li>Phone:  (0389) 21224</li>
-                        <li>Jl. Adi Sucipto, Atambua, Belu, East Nusa Tenggara 85711, Manumutin, Kec. Kota Atambua, Kabupaten Belu, Nusa Tenggara Tim.</li>
+                        <li><a href="mailto:smpnatambua1@gmail.com" style={{ color: "white" }}>smpnatambua1@gmail.com</a></li>
+                        <li>(0389) 21224</li>
+                        <li><a href="https://goo.gl/maps/1Gfjwo1uVkVNHweC6" style={{ color: "white" }}>Jl. Adi Sucipto, Atambua, Belu, East Nusa Tenggara 85711, Manumutin, Kec. Kota Atambua, Kabupaten Belu, Nusa Tenggara Tim.</a></li>
                       </ul>
                     </div>
                   </div>
@@ -43,12 +43,8 @@ const Footer = () => {
                       <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">Profil Sekolah</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="contact.html">Lokasi</a></li>
                         <li><a href="#">Features</a></li>
-                        <li><a href="courses.html">Courses</a></li>
-                        <li><a href="#">Events</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">FAQs</a></li>
                       </ul>
                     </div>
                   </div>
@@ -62,9 +58,7 @@ const Footer = () => {
           <div className="col">
             <div className="copyright d-flex flex-lg-row flex-column align-items-center justify-content-start">
               <div className="cr_text">
-                {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i className="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserve
               </div>
               <div className="ml-lg-auto cr_links">
                 <ul className="cr_list">

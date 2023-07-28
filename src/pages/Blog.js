@@ -4,13 +4,12 @@ import FeaturesSection from "../components/FeaturesSection.js";
 import PopularCourses from "../components/PopularCourses.js";
 import Footer from "../components/Footer.js";
 
-const Home = () => (
+const Blog = () => (
   <>
     <Header />
 
     <main className="my-5 py-5">
       {/* <Container className="h-100"> */}
-            <SideCard />
             <FeaturesSection />
             <PopularCourses />
       {/* </Container> */}
@@ -20,4 +19,4 @@ const Home = () => (
   </>
 );
 
-export default Home;
+export default Blog;

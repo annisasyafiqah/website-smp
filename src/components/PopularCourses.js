@@ -1,9 +1,10 @@
 import React from 'react';
 import "../style/main.css"
+import Gambar from "../images/Upacara.jpg";
 const PopularCourses = () => {
   return (
     <div className="courses">
-      <div className="section_background parallax-window" data-parallax="scroll" data-image-src="images/courses_background.jpg" data-speed="0.8"></div>
+      <div className="section_background parallax-window" data-parallax="scroll" data-image-src={Gambar} data-speed="0.8"></div>
       <div className="container">
         <div className="row">
           <div className="col">
@@ -23,6 +24,7 @@ const PopularCourses = () => {
         </div>
     </div>
     </div>
+
 
   );
 };
