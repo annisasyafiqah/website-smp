@@ -52,7 +52,7 @@ function Header() {
 							<nav class="main_nav_contaner ml-auto">
 								<ul class="main_nav mr-0">
 									<li class="active">
-										<NavLink to={"/dashboard"}>Home
+										<NavLink to={"/"}>Home
 										</NavLink></li>
 									<li>
 										<NavLink to={"/profilSekolah"}>Profil Sekolah

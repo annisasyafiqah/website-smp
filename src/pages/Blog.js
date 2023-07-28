@@ -1,8 +1,6 @@
 import Header from "../components/Header";
-import SideCard from "../components/SideCard";
-import FeaturesSection from "../components/FeaturesSection.js";
-import PopularCourses from "../components/PopularCourses.js";
 import Footer from "../components/Footer.js";
+import News from "../components/News";
 
 const Blog = () => (
   <>
@@ -10,8 +8,7 @@ const Blog = () => (
 
     <main className="my-5 py-5">
       {/* <Container className="h-100"> */}
-            <FeaturesSection />
-            <PopularCourses />
+            <News />
       {/* </Container> */}
     </main>
 
