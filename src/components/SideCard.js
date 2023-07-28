@@ -62,7 +62,7 @@ function DarkVariantExample() {
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h5>Third slide label</h5>
+          <h5>Ekstrakurikuler</h5>
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>

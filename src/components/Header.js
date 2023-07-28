@@ -18,7 +18,7 @@ function Header() {
 									<li><div class="question">Punya pertanyaan terkait SMP Negeri 1 Atambua?</div></li>
 									<li>
 										<MDBIcon fas icon="phone" />
-										<div>(0389) 21224</div>
+										<div>(0389)21224</div>
 									</li>
 									<li>
 										<MDBIcon fas icon="envelope" />
@@ -44,7 +44,7 @@ function Header() {
 							<div class="logo_container">
 								<a href="#">
 									<div class="logo_text">
-										<img src={logo}  alt="no image" width="30" height="30"/>  SMP Negeri 1<span> Atambua</span></div>
+										<img src={logo} alt="no image" width="30" height="30"/>  SMP Negeri 1<span> Atambua</span></div>
 								</a>
 							</div>
 							<nav class="main_nav_contaner ml-auto">
