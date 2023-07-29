@@ -1,16 +1,17 @@
-import logo from '../images/logo_spensa.png';
-import "../style/main.css";
-import "../style/responsive.css";
+import React from "react";
+import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+import logo from "../images/logo_spensa.png";
 import { FiPhone } from 'react-icons/fi';
 import { NavLink } from 'react-router-dom';
 import { IoMdMail } from 'react-icons/io';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../style/main.css";
+import "../style/responsive.css";
 
-function Header() {
-    return (
-    <header class="header">
-			
-		{/* <!-- Top Bar --> */}
-		<div class="top_bar">
+export default function App() {
+  return (
+	<header class="header">
+      <div class="top_bar">
 			<div class="top_bar_container">
 				<div class="container">
 					<div class="row">
@@ -19,7 +20,7 @@ function Header() {
 								<ul class="top_bar_contact_list justify-content-start ">
 									<li><div class="question">Punya pertanyaan terkait SMP Negeri 1 Atambua?</div></li>
 									<li>
-									<FiPhone size={20} style={{ color: "white" }}/>
+									{/* <FiPhone size={20} style={{ color: "white" }}/> */}
 										<div>(0389)21224</div>
 									</li>
 									<li>
@@ -36,45 +37,26 @@ function Header() {
 				</div>
 			</div>				
 		</div>
-
-		{/* <!-- Header Content --> */}
-		<div class="header_container">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div class="header_content d-flex flex-row align-items-center justify-content-start">
-							<div class="logo_container">
-								<a href="#">
-									<div class="logo_text">
-										<img src={logo} alt="no image" width="30" height="30"/>  SMP Negeri 1<span> Atambua</span></div>
-								</a>
-							</div>
-							<nav class="main_nav_contaner ml-auto">
-								<ul class="main_nav mr-0">
-									<li class="active">
-										<NavLink to={"/"}>Home
-										</NavLink></li>
-									<li>
-										<NavLink to={"/profilSekolah"}>Profil Sekolah
-										</NavLink></li>
-									<li>
-										<NavLink to={"/blog"}>Blog
-										</NavLink></li>
-									<li>
-										<NavLink to={"/lokasi"}>Lokasi
-										</NavLink></li>
-									<li>
-										<NavLink to={"/galeri"}>Galeri
-										</NavLink></li>
-								</ul>
-							</nav>
-						</div>
-					</div>
-				</div>
-			</div>
+    <Navbar className="main_nav_contaner ml-auto justify-content-end" collapseOnSelect expand="lg" bg="light" variant="light">
+	  <Navbar.Brand className="header_content d-flex flex-row align-items-center pr-5">
+		<div class="logo_container px-5">
+			<a href="#">
+			<div class="logo_text">
+				<img src={logo} alt="no image" width="30" height="30"/>  SMP Negeri 1<span> Atambua</span></div>
+			</a>
 		</div>
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse className="" id="responsive-navbar-nav">
+        <Nav className="main_nav_contaner">
+		  <Nav.Link className="active" href={"/"}>Home</Nav.Link>
+          <Nav.Link href={"/profilSekolah"}>Profil Sekolah</Nav.Link>
+          <Nav.Link href={"/blog"}>Blog</Nav.Link>
+          <Nav.Link href={"/lokasi"}>Lokasi</Nav.Link>
+          <Nav.Link href={"/galeri"}>Galeri</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
 	</header>
-    );
-  }
-  
-  export default Header;
+  );
+}
