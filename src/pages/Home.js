@@ -1,4 +1,4 @@
-import Header from "../components/Header";
+import { MDBContainer } from 'mdb-react-ui-kit';
 import SideCard from "../components/SideCard";
 import FeaturesSection from "../components/FeaturesSection.js";
 import PopularCourses from "../components/PopularCourses.js";
@@ -7,9 +7,8 @@ import logo from '../images/logo_spensa.png';
 import "../style/main.css";
 import "../style/responsive.css";
 import { FiPhone } from 'react-icons/fi';
-import { NavLink } from 'react-router-dom';
 import { IoMdMail } from 'react-icons/io';
-import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 
 const Home = () => (
   <>
@@ -40,26 +39,29 @@ const Home = () => (
 				</div>
 			</div>				
 		</div>
-    <Navbar className="main_nav_contaner ml-auto justify-content-end" collapseOnSelect expand="lg" bg="light" variant="light">
-	  <Navbar.Brand className="header_content d-flex flex-row align-items-center pr-5">
-		<div class="logo_container px-5">
-			<a href="#">
-			<div class="logo_text">
-				<img src={logo} alt="no image" width="30" height="30"/>  SMP Negeri 1<span> Atambua</span></div>
-			</a>
-		</div>
-      </Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse className="" id="responsive-navbar-nav">
-        <Nav className="main_nav_contaner">
-		  <Nav.Link className="active" href={"/"}>Home</Nav.Link>
-          <Nav.Link href={"/profilSekolah"}>Profil Sekolah</Nav.Link>
-          <Nav.Link href={"/blog"}>Blog</Nav.Link>
-          <Nav.Link href={"/lokasi"}>Lokasi</Nav.Link>
-          <Nav.Link href={"/galeri"}>Galeri</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+		<Navbar className="main_nav_container pl-lg-5" collapseOnSelect expand="lg" bg="light" variant="light">
+			<Navbar.Brand className="header_content d-flex flex-row align-items-center">
+				<MDBContainer fluid className="logo_container justify-content-start" style={{ width: '100%' }}>
+				<a href="#">
+					<div className="logo_text" style={{ fontSize: '3vw' }}>
+					<img src={logo} alt="no image" className="img-fluid" style={{ maxWidth: '40px', height: 'auto' }} /> SMP Negeri 1<span> Atambua</span>
+					</div>
+				</a>
+				</MDBContainer>
+			</Navbar.Brand>
+			<MDBContainer className="mx-3 w-auto">
+			<Navbar.Toggle aria-controls="responsive-navbar-nav" className='justify-content-center' />
+			<Navbar.Collapse className="pl-lg-5 justify-content-center" id="responsive-navbar-nav">
+					<Nav className="main_nav_contaner pl-lg-5 justify-content-center">
+					<Nav.Link className="active" href={"/"}>Home</Nav.Link>
+					<Nav.Link href={"/profilSekolah"}>Profil Sekolah</Nav.Link>
+					<Nav.Link href={"/blog"}>Blog</Nav.Link>
+					<Nav.Link href={"/lokasi"}>Lokasi</Nav.Link>
+					<Nav.Link href={"/galeri"}>Galeri</Nav.Link>
+					</Nav>
+			</Navbar.Collapse>
+			</MDBContainer>
+		</Navbar>
 	</header>
     <main className="my-5 py-5">
       {/* <Container className="h-100"> */}
