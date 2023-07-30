@@ -55,7 +55,6 @@ const Blog = () => (
 					<Nav.Link href={"/"}>Home</Nav.Link>
 					<Nav.Link href={"/profilSekolah"}>Profil</Nav.Link>
 					<Nav.Link className="active" href={"/blog"}>Kegiatan</Nav.Link>
-					<Nav.Link href={"/lokasi"}>Lokasi</Nav.Link>
 					<Nav.Link href={"/galeri"}>Galeri</Nav.Link>
 					</Nav>
 			</Navbar.Collapse>

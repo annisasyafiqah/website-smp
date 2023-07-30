@@ -4,35 +4,46 @@ import { MDBRow, MDBCol } from 'mdb-react-ui-kit';
 
 export default function App() {
   return (
-    <MDBRow className='w-100 justify-content-center'>
+    <div className="map">
+    <div className="team pt-0">
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <div className="section_title_container text-center">
+              <h2 className="section_title">Lokasi Sekolah</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <MDBRow className='w-100 justify-content-center mt-0'>
       <MDBCol lg='4' className='my-4'>
         <iframe
-          src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115681.29592731265!2d-77.47713270775661!3d25.0326996781907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x892f7c99b981dbc9%3A0x2aef01d3485e50d2!2sNassau%2C%20Bahamy!5e0!3m2!1spl!2spl!4v1624445118063!5m2!1spl!2spl'
+          src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15758.810030102739!2d124.8952604!3d-9.0908419!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2cffbe5b2cdc6b0d%3A0xe39b261358134b30!2sSMP%20Negeri%201%20Atambua!5e0!3m2!1sen!2sid!4v1690753922513!5m2!1sen!2sid'
           className='w-100'
           height='400'
           loading='lazy'
         ></iframe>
       </MDBCol>
-      <MDBCol lg='6' className='my-4 d-flex align-items-center'>
+      <MDBCol lg='6' className='my-3 d-flex align-items-center'>
         <div>
-          <h6>This map is embedded in a 6 column layout</h6>
+          <h6>Detail Lokasi SMP Negeri 1 Atambua</h6>
           <p>
-            Try to resize your browser window - you will see that it starts to take up 12 columns on screens
-            smaller than 992px.
+          Jl. Adi Sucipto, Atambua, Belu, Nusa Tenggara Timur 85711, Manumutin, Kecamatan Kota Atambua, Kabupaten Belu, Nusa Tenggara Timur.
           </p>
           <p>
-            This useful feature helps to make your embedded map responsive (<strong>mobile friendly</strong>).
-            You can customize responsive behavior with the use of{' '}
-            <a href='https://mdbootstrap.com/docs/react/layout/breakpoints/'>breakpoints</a>.
+          Lokasi tersebut terletak di kota Atambua, Kabupaten Belu, Provinsi Nusa Tenggara Timur, Indonesia.
           </p>
           <p>
-            This text looks so nice because it's <strong>vertically centered</strong> you can achieve this
-            effect using the{' '}
-            <a href='https://mdbootstrap.com/docs/react/layout/vertical-alignment/'>vertical alignment</a>{' '}
-            layout option.
+          Referensi lokasi: <br/>
+
+          - Berhadapan dengan SMA Negeri 1 Atambua<br/>
+          - Berbatasan langsung dengan SDI Tenubot
           </p>
         </div>
       </MDBCol>
     </MDBRow>
+
+  </div>
   );
 }

@@ -56,7 +56,6 @@ const Home = () => (
 					<Nav.Link className="active" href={"/"}>Home</Nav.Link>
 					<Nav.Link href={"/profilSekolah"}>Profil</Nav.Link>
 					<Nav.Link href={"/blog"}>Kegiatan</Nav.Link>
-					<Nav.Link href={"/lokasi"}>Lokasi</Nav.Link>
 					<Nav.Link href={"/galeri"}>Galeri</Nav.Link>
 					</Nav>
 			</Navbar.Collapse>
@@ -67,9 +66,9 @@ const Home = () => (
       {/* <Container className="h-100"> */}
             <SideCard />
 	  		<Profile/>
-            <FeaturesSection />
             <PopularCourses />
 	</MDBContainer>
+            <FeaturesSection />
       {/* </Container> */}
     </main>
 

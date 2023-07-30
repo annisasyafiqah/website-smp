@@ -863,7 +863,7 @@ section
 .features
 {
 	width: 100%;
-	background: #FFFFFF;
+	background: #14bfee25;
 	padding-top: 93px;
 	padding-bottom: 103px;
 }
@@ -879,6 +879,7 @@ section
 	padding-left: 15px;
 	padding-right: 15px;
 	background: #FFFFFF;
+	border-radius: 6px;
 }
 .feature:hover
 {
@@ -886,17 +887,19 @@ section
 }
 .feature_icon
 {
-	height: 55px;
+	height: 70px;
 }
 .feature_icon img
 {
 	max-width: 100%;
+	border-radius: 6px;
+	margin-bottom: 10%;
 }
 .feature_title
 {
 	position: relative;
 	font-size: 20px;
-	margin-top: 23px;
+	margin-top: 100px;
 }
 
 /*********************************
@@ -1444,6 +1447,8 @@ section
 .team_image img
 {
 	max-width: 90%;
+	border-radius: 6px;
+
 }
 .team_body
 {

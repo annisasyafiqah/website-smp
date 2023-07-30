@@ -15,7 +15,7 @@ function DarkVariantExample() {
           alt="First slide"
         />
         <Carousel.Caption className="py-auto" >
-          <h1 className="d-flex align-items-center justify-content-center" style={{ color: "white", fontSize: 'clamp(35px, 5vw, 150px)' }}>Selamat Datang di SMPN 1 Atambua</h1>
+          <h1 className="d-flex align-items-center justify-content-center" style={{ color: "white", fontSize: 'clamp(20px, 5vw, 150px)' }}>Selamat Datang di SMPN 1 Atambua</h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -25,7 +25,7 @@ function DarkVariantExample() {
           alt="Second slide"
         />
         <Carousel.Caption>
-        <h1 className="d-flex align-items-center justify-content-center" style={{ color: "white", fontSize: 'clamp(35px, 5vw, 150px)' }}>Selamat Datang di SMPN 1 Atambua</h1>
+        <h1 className="d-flex align-items-center justify-content-center" style={{ color: "white", fontSize: 'clamp(20px, 5vw, 150px)' }}>Selamat Datang di SMPN 1 Atambua</h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -35,7 +35,7 @@ function DarkVariantExample() {
           alt="Third slide"
         />
         <Carousel.Caption>
-        <h1 className="d-flex align-items-center justify-content-center" style={{ color: "white", fontSize: 'clamp(35px, 5vw, 150px)' }}>Selamat Datang di SMPN 1 Atambua</h1>
+        <h1 className="d-flex align-items-center justify-content-center" style={{ color: "white", fontSize: 'clamp(20px, 5vw, 150px)' }}>Selamat Datang di SMPN 1 Atambua</h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -45,7 +45,7 @@ function DarkVariantExample() {
           alt="Third slide"
         />
         <Carousel.Caption>
-        <h1 className="d-flex align-items-center justify-content-center" style={{ color: "white", fontSize: 'clamp(35px, 5vw, 150px)' }}>Selamat Datang di SMPN 1 Atambua</h1>
+        <h1 className="d-flex align-items-center justify-content-center" style={{ color: "white", fontSize: 'clamp(20px, 5vw, 150px)' }}>Selamat Datang di SMPN 1 Atambua</h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>

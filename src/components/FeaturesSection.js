@@ -3,8 +3,8 @@ import "../style/main.css"
 import "../style/responsive.css"
 import Gambar1 from "../images/KuMer.jpg";
 import Gambar2 from "../images/Upacara.jpg";
-import Gambar3 from "../images/KuMer.jpg";
-import Gambar4 from "../images/KuMer.jpg";
+import Gambar3 from "../images/obkt.jpg";
+import Gambar4 from "../images/pramuka2023.jpg";
 
 
 const FeaturesSection = () => {
@@ -14,10 +14,10 @@ const FeaturesSection = () => {
         <div className="row">
           <div className="col">
             <div className="section_title_container text-center">
-              <h2 className="section_title">Selamat datang di Website SMP Negeri 1 Atambua</h2>
+              <h2 className="section_title">Fasilitas dan Ekstrakurikuler</h2>
               <div className="section_subtitle">
                 <p>
-                Dalam menjalankan kegiatannya, SMP NEGERI I ATAMBUA berada di bawah naungan Kementerian Pendidikan dan Kebudayaan.
+                 Dalam menjalankan kegiatannya, SMP NEGERI I ATAMBUA berada di bawah naungan Kementerian Pendidikan dan Kebudayaan.
                 </p>
               </div>
             </div>
@@ -25,10 +25,10 @@ const FeaturesSection = () => {
         </div>
         <div className="row features_row">
           {/* Features Item */}
-          <div className="col-lg-3 feature_col">
+          <div className="col-lg-3 col-md-6 team_col">
             <div className="feature text-center trans_400">
-              <div className="feature_icon pt-0">
-                <img src={Gambar1} alt="Gambar 1" width="170" height="85" />
+              <div className="feature_icon py-0">
+                <img src={Gambar1} alt="Gambar 1" width="300" height="150" />
               </div>
               <div className="feature_text pt-3">
               <h3 className="feature_title">Kurikulum Merdeka</h3>
@@ -39,7 +39,7 @@ const FeaturesSection = () => {
           <div className="col-lg-3 feature_col">
             <div className="feature text-center trans_400">
               <div className="feature_icon">
-                <img src={Gambar2} alt="Gambar 2" width="170" height="95"/>
+                <img src={Gambar2} alt="Gambar 2" width="300" height="150"/>
               </div>
               <div className="feature_text pt-4">
               <h3 className="feature_title">Upacara Bendera</h3>
@@ -50,22 +50,22 @@ const FeaturesSection = () => {
           <div className="col-lg-3 feature_col">
             <div className="feature text-center trans_400">
               <div className="feature_icon">
-              <img src={Gambar3} alt="Gambar 3" width="170" height="95"/>
+              <img src={Gambar3} alt="Gambar 3" width="300" height="150"/>
               </div>
               <div className="feature_text pt-4">
-              <h3 className="feature_title">The Experts</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              <h3 className="feature_title">Sosialisasi</h3>
+                <p>SMP Negeri 1 mengadakan sosialisasi kepada warga sekolah</p>
               </div>
             </div>
           </div>
           <div className="col-lg-3 feature_col">
             <div className="feature text-center trans_400">
               <div className="feature_icon">
-              <img src={Gambar4} alt="Gambar 4" width="170" height="95"/>
+              <img src={Gambar4} alt="Gambar 4" width="300" height="150"/>
               </div>
               <div className="feature_text pt-4">
-              <h3 className="feature_title">The Experts</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              <h3 className="feature_title">Pramuka</h3>
+                <p>SMP Negeri 1 Atambua aktif melaksanakan kegiatan pramuka</p>
               </div>
             </div>
           </div>

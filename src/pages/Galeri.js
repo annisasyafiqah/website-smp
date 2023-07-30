@@ -54,7 +54,6 @@ const Galeri = () => (
 					<Nav.Link href={"/"}>Home</Nav.Link>
 					<Nav.Link href={"/profilSekolah"}>Profil</Nav.Link>
 					<Nav.Link href={"/blog"}>Kegiatan</Nav.Link>
-					<Nav.Link href={"/lokasi"}>Lokasi</Nav.Link>
 					<Nav.Link className="active" href={"/galeri"}>Galeri</Nav.Link>
 					</Nav>
 			</Navbar.Collapse>

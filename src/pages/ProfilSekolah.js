@@ -2,6 +2,7 @@ import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import Footer from "../components/Footer.js";
 import Profile from "../components/Profile";
 import AboutVideo from "../components/AboutVideo";
+import Map from "../components/Map.js";
 import logo from '../images/logo_spensa.png';
 import "../style/main.css";
 import "../style/responsive.css";
@@ -55,16 +56,18 @@ const ProfilSekolah = () => (
 					<Nav.Link href={"/"}>Home</Nav.Link>
 					<Nav.Link className="active" href={"/profilSekolah"}>Profil </Nav.Link>
 					<Nav.Link href={"/blog"}>Kegiatan</Nav.Link>
-					<Nav.Link href={"/lokasi"}>Lokasi</Nav.Link>
 					<Nav.Link href={"/galeri"}>Galeri</Nav.Link>
 					</Nav>
 			</Navbar.Collapse>
 		</Navbar>
 	</header>
     <main className="my-5 py-5">
+	<MDBContainer>
       {/* <Container className="h-100"> */}
       <AboutVideo />
       <Profile />
+	  <Map />
+	  </MDBContainer>
       {/* </Container> */}
     </main>
 
