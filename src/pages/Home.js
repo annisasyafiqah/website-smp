@@ -44,7 +44,7 @@ const Home = () => (
 			<Navbar.Brand className="header_content d-flex flex-row align-items-center">
 				<MDBContainer fluid className="logo_container justify-content-start" style={{ width: '100%' }}>
 				<a href="#">
-					<div className="logo_text" style={{ fontSize: 'clamp(17px, 2vw, 40px)'}}>
+					<div className="logo_text" style={{ fontSize: 'clamp(20px, 2vw, 40px)'}}>
 					<img src={logo} alt="no image" className="img-responsive" style={{ minWidth: '20px', maxWidth: '40px'}} /> SMP Negeri 1<span> Atambua</span>
 					</div>
 				</a>
@@ -66,10 +66,10 @@ const Home = () => (
 	<MDBContainer>
       {/* <Container className="h-100"> */}
             <SideCard />
-	  		<Profile />
+	  		<Profile/>
             <FeaturesSection />
             <PopularCourses />
-			</MDBContainer>
+	</MDBContainer>
       {/* </Container> */}
     </main>
 

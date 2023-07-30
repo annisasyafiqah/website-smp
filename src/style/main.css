@@ -241,7 +241,6 @@ section
 {
 	padding: 0px !important;
 }
-
 /*********************************
 3. Header
 *********************************/
@@ -365,6 +364,7 @@ section
 .logo_text
 {
 	display: inline-block;
+	
 }
 .logo
 {
@@ -1406,7 +1406,7 @@ section
 .team
 {
 	width: 100%;
-	padding-top: 93px;
+	padding-top: 40px;
 	padding-bottom: 60px;
 }
 .team_background
@@ -1431,25 +1431,27 @@ section
 }
 .team_image
 {
-	width: 180px;
-	height: 160px;
+	width: 300px;
+	height: 220px;
 	border-radius: 6px;
 	overflow: hidden;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: -86px;
 	z-index: 5;
+	text-align: center;
 }
 .team_image img
 {
-	max-width: 100%;
+	max-width: 90%;
 }
 .team_body
 {
 	width: 100%;
+	align-items: center;
 	padding-top: 108px;
 	padding-bottom: 24px;
-	background: #FFFFFF;
+	background: #ffd31a;
 	border-radius: 6px;
 	box-shadow: 0px 1px 10px rgba(29,34,47,0.1);
 	text-align: center;
@@ -1477,13 +1479,13 @@ section
 }
 .team_title a:hover
 {
-	color: #14bdee;
+	color: #eff2f3;
 }
 .team_subtitle
 {
 	font-size: 14px;
 	font-weight: 400;
-	color: #76777a;
+	color: #1b1818;
 	margin-top: 6px;
 }
 .social_list
