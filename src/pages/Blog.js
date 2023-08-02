@@ -1,12 +1,11 @@
 import Header from "../components/Header";
-import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 import Footer from "../components/Footer.js";
 import News from "../components/News";
 import logo from '../images/logo_spensa.png';
 import "../style/main.css";
 import "../style/responsive.css";
 import { FiPhone } from 'react-icons/fi';
-import { NavLink } from 'react-router-dom';
 import { IoMdMail } from 'react-icons/io';
 import { MDBContainer } from 'mdb-react-ui-kit';
 
@@ -56,6 +55,7 @@ const Blog = () => (
 					<Nav.Link href={"/profilSekolah"}>Profil</Nav.Link>
 					<Nav.Link className="active" href={"/blog"}>Kegiatan</Nav.Link>
 					<Nav.Link href={"/galeri"}>Galeri</Nav.Link>
+					<Nav.Link href={"https://admin-smpn1atambua.cyclic.app/"}>Info Tambahan</Nav.Link>
 					</Nav>
 			</Navbar.Collapse>
 		</Navbar>
