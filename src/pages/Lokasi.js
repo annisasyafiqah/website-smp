@@ -55,6 +55,7 @@ const Lokasi = () => (
 					<Nav.Link href={"/blog"}>Kegiatan</Nav.Link>
 					<Nav.Link className="active" href={"/lokasi"}>Lokasi</Nav.Link>
 					<Nav.Link href={"/galeri"}>Galeri</Nav.Link>
+					<Nav.Link href={"https://admin-smpn1atambua.cyclic.app/"}>Info Tambahan</Nav.Link>
 					</Nav>
 			</Navbar.Collapse>
 		</Navbar>
