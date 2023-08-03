@@ -373,10 +373,16 @@
 		padding-left: 0px;
 	}
 	.logo_text {
-        white-space: normal; /* Allow text to wrap */
-		word-wrap: break-word; /* Break words to fit container */
-		display: flex;
-		align-items: center;
+        font-family: 'Roboto Slab', serif;
+		font-size: 36px;
+		font-weight: 700;
+		line-height: 0.75;
+		color: #FFFFFF;
+		-webkit-transition: all 200ms ease;
+		-moz-transition: all 200ms ease;
+		-ms-transition: all 200ms ease;
+		-o-transition: all 200ms ease;
+		transition: all 200ms ease;
     }
 }
 
