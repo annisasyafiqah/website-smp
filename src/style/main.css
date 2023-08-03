@@ -767,7 +767,9 @@ section
 	width: 100%;
 	height: 100%;
 }
-
+.card-header {
+	background-color: #14bdee;
+}
 /*********************************
 6. Home
 *********************************/
@@ -1484,7 +1486,7 @@ section
 }
 .team_title a:hover
 {
-	color: #eff2f3;
+	color: #0b0c0d;
 }
 .team_subtitle
 {
