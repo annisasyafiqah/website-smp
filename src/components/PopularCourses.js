@@ -11,9 +11,9 @@ const PopularCourses = () => {
 
           <div class="card">
             <div class="card-header text-center pt-4 ">
-              <p class="text-uppercase">
+              <h2 class="text-uppercase">
                 <strong>Visi</strong>
-              </p>
+              </h2>
             </div>
             <div class="card-body">
 
@@ -27,9 +27,9 @@ const PopularCourses = () => {
 
           <div class="card">
             <div class="card-header text-center pt-4">
-              <p class="text-uppercase">
+              <h2 class="text-uppercase">
                 <strong>Misi</strong>
-              </p>
+              </h2>
             </div>
             <div class="card-body">
               <p>1. Menanamkan Keimanan, Ketakwaan Melalui Pengalaman Ajaran Agama <br/> 2. Mengembangkan Organisasi Sekolah Yang Terus Belajar (Learning Organization)<br/>3. Meningkatkan Profesionalisme dan Kompetensi Pendidik dan Tenaga Kependidikan<br/>4. Menjalin Kerjasama Yang Harmonis Antar Warga Sekolah Dengan Lembaga Lain Yang Terkait<br/>5. Membina Kemandirian Peserta Didik Melalui Kegiatan Pembiasaan Dan Pengembangan Diri Yang Terencana dan Berkesinambungan<br/>6. Meningkatkan Kesadaran Warga Sekolah Untuk Memelihara Lingkungan Sekolah<br/>7. Meningkatkan Apre... Warga Sekolah Untuk Melestarikan Budaya Lokal</p>
