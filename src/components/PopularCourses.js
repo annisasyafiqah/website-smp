@@ -10,7 +10,7 @@ const PopularCourses = () => {
         <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
 
           <div class="card">
-            <div class="card-header text-center pt-4 ">
+            <div class="card-header text-center">
               <h2 class="text-uppercase">
                 <strong>Visi</strong>
               </h2>
@@ -26,7 +26,7 @@ const PopularCourses = () => {
         <div class="col-lg-6 col-md-6 mb-4 mb-lg-0">
 
           <div class="card">
-            <div class="card-header text-center pt-4">
+            <div class="card-header text-center">
               <h2 class="text-uppercase">
                 <strong>Misi</strong>
               </h2>
