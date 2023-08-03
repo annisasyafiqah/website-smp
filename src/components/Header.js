@@ -41,7 +41,7 @@ export default function App() {
 	  <Navbar.Brand className="header_content d-flex flex-row align-items-center pr-5">
 		<div class="logo_container px-5">
 			<a>
-			<div class="logo_text logo_text_wrap">
+			<div className="logo_text">
 				<img src={logo} alt="no image" width="30" height="30"/>  SMP Negeri 1<span> Atambua</span>
 			</div>
 			</a>
