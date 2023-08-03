@@ -364,6 +364,7 @@ section
 .logo_text
 {
 	display: inline-block;
+	white-space: nowrap;
 	
 }
 .logo

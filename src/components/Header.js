@@ -40,9 +40,10 @@ export default function App() {
     <Navbar className="main_nav_contaner ml-auto justify-content-end" collapseOnSelect expand="lg" bg="light" variant="light">
 	  <Navbar.Brand className="header_content d-flex flex-row align-items-center pr-5">
 		<div class="logo_container px-5">
-			<a href="#">
-			<div class="logo_text">
-				<img src={logo} alt="no image" width="30" height="30"/>  SMP Negeri 1<span> Atambua</span></div>
+			<a>
+			<div class="logo_text logo_text_wrap">
+				<img src={logo} alt="no image" width="30" height="30"/>  SMP Negeri 1<span> Atambua</span>
+			</div>
 			</a>
 		</div>
       </Navbar.Brand>

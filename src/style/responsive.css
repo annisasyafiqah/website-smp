@@ -372,6 +372,12 @@
 	{
 		padding-left: 0px;
 	}
+	.logo_text_wrap {
+        white-space: normal; /* Allow text to wrap on smaller screens */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
 }
 
 /************
