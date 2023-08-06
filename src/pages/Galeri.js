@@ -1,3 +1,4 @@
+import Gallery2 from "../components/Gallery2";
 import Gallery from "../components/Gallery";
 import { Nav, Navbar } from "react-bootstrap";
 import { Container } from 'reactstrap'; 
@@ -62,7 +63,7 @@ const Galeri = () => (
 	</header>
     <main className="my-5 py-5 mt-5">
       <Container className="h-100 pt-5 mt-5">
-            <Gallery />
+            <Gallery2 />
       </Container>
     </main>
 

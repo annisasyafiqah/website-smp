@@ -93,7 +93,7 @@ export default function App() {
           <span className="badge bg-warning px-2 py-1 shadow-1-strong mb-3">
             Terbaru
           </span> <br/>
-          <u> 29.07.2020</u>
+          <u> 29.07.2023</u>
           <h4 className="pt-3">
             <strong>Rapat Mengenai Dana Bos Ketenagakerjaan dan Evaluasi Mingguan</strong>
           </h4>

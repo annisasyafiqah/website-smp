@@ -1,6 +1,6 @@
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import Footer from "../components/Footer.js";
-import Profile from "../components/Profile";
+import ProfileGuru from "../components/ProfileGuru";
 import AboutVideo from "../components/AboutVideo";
 import Map from "../components/Map.js";
 import logo from '../images/logo_spensa.png';
@@ -66,7 +66,7 @@ const ProfilSekolah = () => (
 	<MDBContainer>
       {/* <Container className="h-100"> */}
       <AboutVideo />
-      <Profile />
+      <ProfileGuru />
 	  <Map />
 	  </MDBContainer>
       {/* </Container> */}
