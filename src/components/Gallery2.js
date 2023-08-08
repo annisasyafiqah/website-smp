@@ -43,7 +43,7 @@ import Carousel from 'react-bootstrap/Carousel';
 const customCarouselStyles = {
     control: {
       borderRadius: '50%',
-      backgroundColor: 'yellow',
+      backgroundColor: '#FFC107',
       width: '45px',
       height: '45px',
       display: 'flex',

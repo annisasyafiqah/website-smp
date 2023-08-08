@@ -5,6 +5,7 @@ import ProfilSekolah from './pages/ProfilSekolah';
 import Blog from './pages/Blog';
 import Lokasi from './pages/Lokasi';
 import Galeri from './pages/Galeri';
+import Internal from './pages/Internal';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/lokasi" element={<Lokasi />} />
         <Route path="/galeri" element={<Galeri />} />
+        <Route path="/info" element={<Internal />} />
       </Routes>
     </Router>
   );

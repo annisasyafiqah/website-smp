@@ -16,7 +16,7 @@ const FeaturesSection = () => {
             <div className="section_title_container text-center">
               <h2 className="section_title">Fasilitas dan Ekstrakurikuler</h2>
               <div className="section_subtitle">
-                <p>
+                <p > 
                  Dalam menjalankan kegiatannya, SMP NEGERI I ATAMBUA berada di bawah naungan Kementerian Pendidikan dan Kebudayaan.
                 </p>
               </div>

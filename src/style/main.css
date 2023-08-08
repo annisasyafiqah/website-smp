@@ -866,7 +866,7 @@ section
 .features
 {
 	width: 100%;
-	background: #14bdee;
+	background: #14bfee1f;
 	padding-top: 93px;
 	padding-bottom: 103px;
 }
@@ -1037,7 +1037,9 @@ section
 	line-height: 46px;
 	color: #FFFFFF;
 }
-
+.section_subtitle p {
+	color: #315670;
+}
 /*********************************
 9. Counter
 *********************************/
@@ -1049,6 +1051,7 @@ section
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.3); /* Adjust the alpha value (0.5) for the darkness */
   }
+
 .navbar-before-scroll .nav-link,
 .navbar-before-scroll .navbar-toggler-icon {
   color: #fff;

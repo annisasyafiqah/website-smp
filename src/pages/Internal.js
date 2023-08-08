@@ -1,5 +1,7 @@
 import Gallery2 from "../components/Gallery2";
 import Gallery from "../components/Gallery";
+import Jadpel from "../components/Jadpel";
+import KetJadpel from "../components/KetJadpel";
 import { Nav, Navbar } from "react-bootstrap";
 import { Container } from 'reactstrap'; 
 import Footer from "../components/Footer.js";
@@ -10,7 +12,7 @@ import { FiPhone } from 'react-icons/fi';
 import { IoMdMail } from 'react-icons/io';
 import { MDBContainer } from 'mdb-react-ui-kit';
 
-const Galeri = () => (
+const Internal = () => (
   <>
     <header class="header">
       <div class="top_bar">
@@ -55,21 +57,24 @@ const Galeri = () => (
 					<Nav.Link href={"/"}>Home</Nav.Link>
 					<Nav.Link href={"/profilSekolah"}>Profil</Nav.Link>
 					<Nav.Link href={"/blog"}>Kegiatan</Nav.Link>
-					<Nav.Link className="active" href={"/galeri"}>Galeri</Nav.Link>
+					<Nav.Link href={"/galeri"}>Galeri</Nav.Link>
 					{/* <Nav.Link href={"https://admin-smpn1atambua.cyclic.app/"}>Info Tambahan</Nav.Link> */}
-					<Nav.Link href={"/info"}>Info Tambahan</Nav.Link>
+					<Nav.Link className="active"href={"/info"}>Info Tambahan</Nav.Link>
 					</Nav>
 			</Navbar.Collapse>
 		</Navbar>
 	</header>
     <main className="my-5 py-5 mt-5">
-      <Container className="h-100 pt-5 mt-5">
-            <Gallery2 />
+      <Container className="h-100 pt-5 mt-5 ">
+		<h1 className="judul text-center mb-5">Jadwal Pelajaran Semester 1 TA 2023/2024</h1>
+		<Jadpel />
+		<h1 className="judul pl-5 text-center my-5">Keterangan Jadwal Pelajaran</h1>
+		<KetJadpel />
+            
       </Container>
     </main>
-
     <Footer />
   </>
 );
 
-export default Galeri;
+export default Internal;

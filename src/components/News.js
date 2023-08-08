@@ -37,7 +37,7 @@ import Gambar22 from "../images/obkt5.jpg"
 const customCarouselStyles = {
   control: {
     borderRadius: '50%',
-    backgroundColor: 'yellow',
+    backgroundColor: '#FFC107',
     width: '45px',
     height: '45px',
     display: 'flex',

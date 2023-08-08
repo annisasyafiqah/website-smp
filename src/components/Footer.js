@@ -1,4 +1,5 @@
 import React from 'react';
+import { Nav, Navbar } from "react-bootstrap";
 
 const Footer = () => {
   return (
@@ -41,10 +42,11 @@ const Footer = () => {
                     <div className="footer_title">Contact Us</div>
                     <div className="footer_links_container">
                       <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">Profil Sekolah</a></li>
-                        <li><a href="contact.html">Lokasi</a></li>
-                        <li><a href="#">Features</a></li>
+                        <li><Nav.Link href={"/"}>Home</Nav.Link></li>
+                        <li><Nav.Link href={"/profilSekolah"}>Profil</Nav.Link></li>
+                        <li><Nav.Link href={"/blog"}>Kegiatan</Nav.Link></li>
+                        <li><Nav.Link href={"/galeri"}>Galeri</Nav.Link></li>
+                        <li><Nav.Link className="active"href={"/info"}>Info Tambahan</Nav.Link></li>
                       </ul>
                     </div>
                   </div>
