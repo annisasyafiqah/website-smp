@@ -2,8 +2,13 @@ import React from 'react';
 import "../style/main.css";
 import "../style/responsive.css";
 import KepalaPerpus from "../images/ibugita.jpg"
-// import Kurikulum from "../images/Upacara.jpg"
+import Kurikulum1 from "../images/BuKd.jpg"
+import Kurikulum2 from "../images/PakYan.jpg"
 import Osis from "../images/paksem.jpg"
+import Osis2 from "../images/PakFelix.jpg"
+import uks from "../images/Kajul.jpg"
+import lab from "../images/pakyos.jpg"
+import lab2 from "../images/IbuDina.jpg"
 import Kesiswaan from "../images/paksem.jpg"
 import snp from "../images/pakgradus.jpg"
 import kurikulum from "../images/pakjon.jpg"
@@ -36,7 +41,7 @@ const Profile = () => {
           {/* Team Item 2 */}
           <div className="col-lg-3 col-md-6 team_col">
             <div className="team_item">
-              <div className="team_image img-fluid"><img src={kurikulum} alt="wakasek urusan kurikulum" /></div>
+              <div className="team_image img-fluid"><img src={lab} alt="kepala Laboratorium" /></div>
               <div className="team_body">
                 <div className="team_title px-2"><a href="#">Yosep Klau Bria, S.Pd<br/></a></div>
                 <div className="team_subtitle">Kepala Laboratorium</div>
@@ -47,7 +52,7 @@ const Profile = () => {
           {/* Team Item 3 */}
           <div className="col-lg-3 col-md-6 team_col">
             <div className="team_item">
-              <div className="team_image img-fluid"><img src={Kesiswaan} alt="wakases urusan kesiswaan" /></div>
+              <div className="team_image img-fluid"><img src={Kurikulum1} alt="wakases urusan kesiswaan" /></div>
               <div className="team_body">
                 <div className="team_title px-2"><a href="#">Khadijah Haris, S.Pd</a></div>
                 <div className="team_subtitle">Kurikulum</div>
@@ -58,7 +63,7 @@ const Profile = () => {
           {/* Team Item 4 */}
           <div className="col-lg-3 col-md-6 team_col">
             <div className="team_item">
-              <div className="team_image img-fluid"><img src={snp} alt="wakases urusan sarana dan prasarana" /></div>
+              <div className="team_image img-fluid"><img src={Kurikulum2} alt="Kurikulum" /></div>
               <div className="team_body">
                 <div className="team_title px-2"><a href="#">Yanuarius Bartholomeus Mau, S.Pd.Gr</a></div>
                 <div className="team_subtitle">Kurikulum</div>
@@ -82,7 +87,7 @@ const Profile = () => {
           {/* Team Item 2 */}
           <div className="col-lg-3 col-md-6 team_col">
             <div className="team_item">
-              <div className="team_image img-fluid"><img src={kurikulum} alt="wakasek urusan kurikulum" /></div>
+              <div className="team_image img-fluid"><img src={Osis2} alt="Pembina Osis" /></div>
               <div className="team_body">
                 <div className="team_title px-2"><a href="#">Felix Elmi Taek, S.Pd<br/></a></div>
                 <div className="team_subtitle">Pembina Osis</div>
@@ -93,7 +98,7 @@ const Profile = () => {
           {/* Team Item 3 */}
           <div className="col-lg-3 col-md-6 team_col">
             <div className="team_item">
-              <div className="team_image img-fluid"><img src={Kesiswaan} alt="wakases urusan kesiswaan" /></div>
+              <div className="team_image img-fluid"><img src={uks} alt="UKS" /></div>
               <div className="team_body">
                 <div className="team_title px-2"><a href="#">Julieta Hoar Soares, S.Pd</a></div>
                 <div className="team_subtitle">UKS</div>
@@ -104,7 +109,7 @@ const Profile = () => {
           {/* Team Item 4 */}
           <div className="col-lg-3 col-md-6 team_col">
             <div className="team_item">
-              <div className="team_image img-fluid"><img src={snp} alt="wakases urusan sarana dan prasarana" /></div>
+              <div className="team_image img-fluid"><img src={lab2} alt="Laboratorium Komputer" /></div>
               <div className="team_body">
                 <div className="team_title px-2"><a href="#">Armandina V. Lopez, S.Pd</a></div>
                 <div className="team_subtitle">Laboratorium Komputer</div>

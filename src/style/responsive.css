@@ -110,7 +110,26 @@
 ************/
 
 @media only screen and (max-width: 991px)
-{
+{	
+	.navbar-toggler {
+		background-color: #FFD31A;
+		/* Add more styles here if needed */
+	  }
+	  
+	  /* Optional: Change the color of the toggle icon */
+	  .navbar-toggler-icon {
+		color: #333; /* Change the color of the toggle button icon */
+	  }	  
+	/* responsive.css */
+	.main_nav_toggle {
+		display: none;
+		cursor: pointer;
+	}
+	
+	.main_nav_toggle .navbar-toggler-icon {
+		background-color: yellow;
+		/* Add more styles here if needed */
+	}
 	.main_nav,
 	.search_button
 	{
@@ -286,6 +305,7 @@
 .main_nav_toggle {
 	display: none;
 	cursor: pointer;
+	background-color: yellow;
   }
   
   .burger-icon {

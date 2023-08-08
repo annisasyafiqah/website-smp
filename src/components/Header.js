@@ -7,7 +7,12 @@ import { IoMdMail } from 'react-icons/io';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../style/main.css";
 import "../style/responsive.css";
-
+const customToggleStyles = {
+	toggle: {
+	  backgroundColor: 'yellow',
+	  border: 'none',
+	},
+  };
 export default function App() {
   return (
 	<header class="header">
@@ -47,7 +52,11 @@ export default function App() {
 			</a>
 		</div>
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Toggle
+	  	className="toggle_button" // Add this class to the toggle button
+          aria-controls="responsive-navbar-nav"
+          style={customToggleStyles.toggle} // Apply the custom style
+      />
       <Navbar.Collapse className="" id="responsive-navbar-nav">
         <Nav className="main_nav_contaner">
 		  <Nav.Link className="active" href={"/"}>Home</Nav.Link>

@@ -5,9 +5,14 @@ import Gambar3 from "../images/paskibra23.jpg";
 import Gambar4 from "../images/mpls2023.jpg";
 import Gambar5 from "../images/pramuka2023.jpg";
 import "../style/main.css"
+
+
 function DarkVariantExample() {
   return (
-    <Carousel data-bs-theme="dark">
+    <Carousel
+      data-bs-theme="dark"
+     
+    >
       <Carousel.Item >
         <img
           className="d-block w-100"

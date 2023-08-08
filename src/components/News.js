@@ -32,12 +32,42 @@ import Gambar19 from "../images/obkt2.jpg"
 import Gambar20 from "../images/obkt3.jpg"
 import Gambar21 from "../images/obkt4.jpg"
 import Gambar22 from "../images/obkt5.jpg"
+
+
+const customCarouselStyles = {
+  control: {
+    borderRadius: '50%',
+    backgroundColor: 'yellow',
+    width: '45px',
+    height: '45px',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    boxShadow: '0px 0px 5px rgba(0, 0, 0, 0.5)',
+    cursor: 'pointer',
+  },
+  icon: {
+    fontSize: '100px', // Adjust the font size for a smaller icon
+    lineHeight: 0, // To remove any extra spacing caused by font metrics
+  },
+};
+
 export default function App() {
   return (
     <MDBContainer className="py-5 mt-5">
       <MDBRow className="gx-5 border-bottom pb-4 mb-5">
         <MDBCol md="6" className="mb-4">
-        <Carousel data-bs-theme="dark">
+        <Carousel data-bs-theme="dark"
+         nextIcon={
+          <span style={customCarouselStyles.control}>
+            <span style={Object.assign({}, customCarouselStyles.icon, { fontSize: '30px' })}>&#8250;</span>
+          </span>
+        }
+        prevIcon={
+          <span style={customCarouselStyles.control}>
+            <span style={Object.assign({}, customCarouselStyles.icon, { fontSize: '30px' })}>&#8249;</span>
+          </span>
+        }>
       <Carousel.Item >
         <img
           className="d-block w-100"
@@ -76,13 +106,6 @@ export default function App() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={Gambar6}
-          alt="Third slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
           src={Gambar7}
           alt="Third slide"
         />
@@ -106,7 +129,17 @@ export default function App() {
       <MDBRow className="gx-lg-5">
         <MDBCol lg="4" md="6" className="mb-4 mb-lg-0">
           <div>
-          <Carousel data-bs-theme="dark">
+          <Carousel data-bs-theme="dark"
+         nextIcon={
+          <span style={customCarouselStyles.control}>
+            <span style={Object.assign({}, customCarouselStyles.icon, { fontSize: '30px' })}>&#8250;</span>
+          </span>
+        }
+        prevIcon={
+          <span style={customCarouselStyles.control}>
+            <span style={Object.assign({}, customCarouselStyles.icon, { fontSize: '30px' })}>&#8249;</span>
+          </span>
+        }>
             <Carousel.Item >
               <img
                 className="d-block w-100"
@@ -164,7 +197,17 @@ export default function App() {
         </MDBCol>
         <MDBCol lg="4" md="6" className="mb-4 mb-lg-0">
           <div>
-          <Carousel data-bs-theme="dark">
+          <Carousel data-bs-theme="dark"
+         nextIcon={
+          <span style={customCarouselStyles.control}>
+            <span style={Object.assign({}, customCarouselStyles.icon, { fontSize: '30px' })}>&#8250;</span>
+          </span>
+        }
+        prevIcon={
+          <span style={customCarouselStyles.control}>
+            <span style={Object.assign({}, customCarouselStyles.icon, { fontSize: '30px' })}>&#8249;</span>
+          </span>
+        }>
             <Carousel.Item >
               <img
                 className="d-block w-100"
@@ -224,7 +267,17 @@ export default function App() {
         </MDBCol>
         <MDBCol lg="4" md="12" className="mb-4 mb-lg-0">
           <div>
-          <Carousel data-bs-theme="dark">
+          <Carousel data-bs-theme="dark"
+         nextIcon={
+          <span style={customCarouselStyles.control}>
+            <span style={Object.assign({}, customCarouselStyles.icon, { fontSize: '30px' })}>&#8250;</span>
+          </span>
+        }
+        prevIcon={
+          <span style={customCarouselStyles.control}>
+            <span style={Object.assign({}, customCarouselStyles.icon, { fontSize: '30px' })}>&#8249;</span>
+          </span>
+        }>
             <Carousel.Item >
               <img
                 className="d-block w-100"

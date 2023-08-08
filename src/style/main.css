@@ -1041,6 +1041,14 @@ section
 /*********************************
 9. Counter
 *********************************/
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3); /* Adjust the alpha value (0.5) for the darkness */
+  }
 .navbar-before-scroll .nav-link,
 .navbar-before-scroll .navbar-toggler-icon {
   color: #fff;
@@ -1049,7 +1057,7 @@ section
 /* Color of the links AFTER scroll */
 .navbar-after-scroll .nav-link,
 .navbar-after-scroll .navbar-toggler-icon {
-  color: #4f4f4f;
+  color: yellow;
 }
 
 /* Color of the navbar AFTER scroll */
