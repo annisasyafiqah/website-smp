@@ -270,6 +270,7 @@
 	{
 		font-size: 13px;
 	}
+	
 }
 
 /************
@@ -278,6 +279,7 @@
 
 @media only screen and (max-width: 959px)
 {
+	
 	
 }
 
@@ -296,7 +298,10 @@
 
 @media only screen and (max-width: 768px)
 {
-	
+	.responsive-video {
+		width: 100%; /* Lebar video mengisi lebar kontainer */
+		height: auto; /* Tinggi video menyesuaikan agar tetap proporsional */
+	  }
 }
 
 /************

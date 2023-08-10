@@ -25,7 +25,7 @@ const AboutVideo = () => {
           {/* Feature Content */}
           <div className="col-lg-6 feature_col">
               {/* Accordions */}
-              <MDBAccordion className="border mt-5"borderless>
+              <MDBAccordion className="border mt-5" borderless initialActive={1}>
                 <MDBAccordionItem collapseId={1} headerTitle='Nama Sekolah'>
                  Sekolah Menengah Pertama Negeri 1 Atambua
                 </MDBAccordionItem>
@@ -47,15 +47,17 @@ const AboutVideo = () => {
           {/* Feature Video */}
           <div className="col-lg-6 feature_col">
             <div className="feature_video d-flex flex-column align-items-center justify-content-center pt-5">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/lccAIaEBwiE"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
+            <iframe
+              className="responsive-video"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/lccAIaEBwiE"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+
             </div>
           </div>
         </div>

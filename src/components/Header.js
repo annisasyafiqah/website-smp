@@ -1,8 +1,6 @@
 import React from "react";
-import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 import logo from "../images/logo_spensa.png";
-import { FiPhone } from 'react-icons/fi';
-import { NavLink } from 'react-router-dom';
 import { IoMdMail } from 'react-icons/io';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../style/main.css";
@@ -44,7 +42,7 @@ export default function App() {
 		</div>
     <Navbar className="main_nav_contaner ml-auto justify-content-end" collapseOnSelect expand="lg" bg="light" variant="light">
 	  <Navbar.Brand className="header_content d-flex flex-row align-items-center pr-5">
-		<div class="logo_container px-5">
+		<div class="logo_container mx-5">
 			<a>
 			<div className="logo_text">
 				<img src={logo} alt="no image" width="30" height="30"/>  SMP Negeri 1<span> Atambua</span>
