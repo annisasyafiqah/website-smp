@@ -10,8 +10,7 @@ import "../style/main.css"
 function DarkVariantExample() {
   return (
     <Carousel
-      data-bs-theme="dark"
-     
+      data-bs-theme="dark" className='pb-5'
     >
       <Carousel.Item >
         <img

@@ -1,5 +1,4 @@
 import Gallery2 from "../components/Gallery2";
-import Gallery from "../components/Gallery";
 import { Nav, Navbar } from "react-bootstrap";
 import { Container } from 'reactstrap'; 
 import Footer from "../components/Footer.js";

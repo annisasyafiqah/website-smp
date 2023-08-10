@@ -1,4 +1,3 @@
-import Header from "../components/Header";
 import { Nav, Navbar } from "react-bootstrap";
 import Footer from "../components/Footer.js";
 import News from "../components/News";
@@ -41,11 +40,9 @@ const Blog = () => (
 		<Navbar className="main_nav_contaner w-100 pt-0" collapseOnSelect expand="lg" bg="light" variant="light">
 			<Navbar.Brand className="header_content d-flex flex-row align-items-center">
 				<MDBContainer fluid className="logo_container justify-content-start" style={{ width: '100%' }}>
-				<a href="#">
 					<div className="logo_text" style={{ fontSize: 'clamp(17px, 2vw, 40px)'}}>
 					<img src={logo} alt="no image" className="img-responsive" style={{ minWidth: '20px', maxWidth: '40px'}} /> SMP Negeri 1<span> Atambua</span>
 					</div>
-				</a>
 				</MDBContainer>
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls="responsive-navbar-nav" className="mx-4 justify-content-end" />

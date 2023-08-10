@@ -53,8 +53,9 @@ const customCarouselStyles = {
       cursor: 'pointer',
     },
     icon: {
-      fontSize: '100px', // Adjust the font size for a smaller icon
-      lineHeight: 0, // To remove any extra spacing caused by font metrics
+      fontSize: '200px', // Mengubah ukuran ikon menjadi lebih besar
+      lineHeight: 0, // Untuk menghapus spasi ekstra yang disebabkan oleh metrik font
+      color: 'black', // Mengubah warna ikon menjadi hitam
     },
   };
 

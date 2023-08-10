@@ -862,7 +862,13 @@ section
 /*********************************
 7. Features
 *********************************/
-
+.team
+{
+	width: 100%;
+	background: #14bfee1f;
+	padding-top: 93px;
+	padding-bottom: 103px;
+}
 .features
 {
 	width: 100%;

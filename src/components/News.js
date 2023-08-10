@@ -48,7 +48,8 @@ const customCarouselStyles = {
   },
   icon: {
     fontSize: '100px', // Adjust the font size for a smaller icon
-    lineHeight: 0, // To remove any extra spacing caused by font metrics
+    lineHeight: 0,
+    color: 'black', 
   },
 };
 

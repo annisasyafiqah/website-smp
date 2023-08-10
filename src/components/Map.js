@@ -5,7 +5,7 @@ import { MDBRow, MDBCol } from 'mdb-react-ui-kit';
 export default function App() {
   return (
     <div className="map">
-    <div className="team pt-0">
+    <div className="pt-5">
       <div className="container">
         <div className="row">
           <div className="col">

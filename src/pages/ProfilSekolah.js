@@ -1,4 +1,4 @@
-import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Nav, Navbar} from "react-bootstrap";
 import Footer from "../components/Footer.js";
 import ProfileGuru from "../components/ProfileGuru";
 import AboutVideo from "../components/AboutVideo";
@@ -67,7 +67,9 @@ const ProfilSekolah = () => (
 	<MDBContainer>
       {/* <Container className="h-100"> */}
       <AboutVideo />
+	  </MDBContainer>
       <ProfileGuru />
+	  <MDBContainer>
 	  <Map />
 	  </MDBContainer>
       {/* </Container> */}

@@ -1,5 +1,3 @@
-import Gallery2 from "../components/Gallery2";
-import Gallery from "../components/Gallery";
 import Jadpel from "../components/Jadpel";
 import KetJadpel from "../components/KetJadpel";
 import { Nav, Navbar } from "react-bootstrap";
@@ -66,9 +64,9 @@ const Internal = () => (
 	</header>
     <main className="my-5 py-5 mt-5">
       <Container className="h-100 pt-5 mt-5 ">
-		<h1 className="judul text-center mb-5">Jadwal Pelajaran Semester 1 TA 2023/2024</h1>
+	  <h2 className="section_title pl-5 text-center my-5">Jadwal Pelajaran Semester 1 TA 2023/2024</h2>
 		<Jadpel />
-		<h1 className="judul pl-5 text-center my-5">Keterangan Jadwal Pelajaran</h1>
+		<h2 className="section_title pl-5 text-center my-5">Keterangan Jadwal Pelajaran</h2>
 		<KetJadpel />
             
       </Container>

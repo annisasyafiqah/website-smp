@@ -6,7 +6,7 @@ import { MDBAccordion, MDBAccordionItem } from 'mdb-react-ui-kit';
 const AboutVideo = () => {
   return (
 
-    <div className="card feature">
+    <div className="card feature mb-3">
       <div className="card-body feature_background" style={{ backgroundImage: 'url(images/Upacara.jpg)' }}></div>
       <div className="container">
         <div className="row">

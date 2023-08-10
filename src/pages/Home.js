@@ -67,9 +67,12 @@ const Home = () => (
 	<MDBContainer>
       {/* <Container className="h-100"> */}
             <SideCard />
-	  		<Profile/>
-            <PopularCourses />
-	</MDBContainer>
+	 </MDBContainer> 	
+	 	<Profile/>
+		 <MDBContainer>
+        <PopularCourses />
+		</MDBContainer>
+		
             <FeaturesSection />
       {/* </Container> */}
     </main>

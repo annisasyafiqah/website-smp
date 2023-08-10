@@ -3,8 +3,8 @@ import "../style/main.css"
 import Gambar from "../images/Upacara.jpg";
 const PopularCourses = () => {
   return (
-    <section class="mb-5 mb-lg-10">
-      <h3 class="fw-bold text-center mb-5">Visi dan Misi SMP N 1 Atambua</h3>
+    <section class="mb-5 mb-lg-10 pt-5">
+      <h3 class="fw-bold text-center mb-5 pt-5">Visi dan Misi SMP N 1 Atambua</h3>
 
       <div class="row gx-xl-5">
         <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
