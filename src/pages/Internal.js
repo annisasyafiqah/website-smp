@@ -1,5 +1,5 @@
 import Jadpel from "../components/Jadpel";
-import Walas from "../components/walas";
+import Walas from "../components/Walas";
 import KetJadpel from "../components/KetJadpel";
 import { Nav, Navbar } from "react-bootstrap";
 import { Container } from 'reactstrap'; 
