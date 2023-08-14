@@ -1,4 +1,5 @@
 import Jadpel from "../components/Jadpel";
+import Walas from "../components/walas";
 import KetJadpel from "../components/KetJadpel";
 import { Nav, Navbar } from "react-bootstrap";
 import { Container } from 'reactstrap'; 
@@ -68,6 +69,8 @@ const Internal = () => (
 		<Jadpel />
 		<h2 className="section_title pl-5 text-center my-5">Keterangan Jadwal Pelajaran</h2>
 		<KetJadpel />
+		<h2 className="section_title pl-5 text-center my-5">Keterangan Jadwal Pelajaran</h2>
+		<Walas />
             
       </Container>
     </main>
