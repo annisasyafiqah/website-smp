@@ -69,7 +69,7 @@ const Internal = () => (
 		<Jadpel />
 		<h2 className="section_title pl-5 text-center my-5">Keterangan Jadwal Pelajaran</h2>
 		<KetJadpel />
-		<h2 className="section_title pl-5 text-center my-5">Keterangan Jadwal Pelajaran</h2>
+		<h2 className="section_title pl-5 text-center my-5">Daftar Wali Kelas</h2>
 		<Walas />
             
       </Container>
