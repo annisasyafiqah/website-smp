@@ -35,8 +35,11 @@ import Gambar27 from "../images/harpendik5.jpg"
 import Gambar28 from "../images/harpendik6.jpg"
 import Gambar29 from "../images/harpendik7.jpg"
 import Gambar30 from "../images/harpendik8.jpg"
-import Gambar31 from "../images/harpendik9.jpg"
-import Gambar32 from "../images/harpendik10.jpg"
+import Gambar31 from "../images/p5.jpg"
+import Gambar32 from "../images/p5-1.jpg"
+import Gambar33 from "../images/p5-2.jpg"
+import Gambar34 from "../images/p5-3.jpg"
+import Gambar35 from "../images/p5-4.jpg"
 import Carousel from 'react-bootstrap/Carousel';
 
 
@@ -346,6 +349,55 @@ export default function App() {
                 <img
                 className="d-block w-100 rounded mb-4"
                 src={Gambar30}
+                alt="Third slide"
+                />
+            </Carousel.Item>
+            </Carousel>
+      </MDBCol>
+      <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
+      <Carousel data-bs-theme="dark"
+         nextIcon={
+          <span style={customCarouselStyles.control}>
+            <span style={Object.assign({}, customCarouselStyles.icon, { fontSize: '30px' })}>&#8250;</span>
+          </span>
+        }
+        prevIcon={
+          <span style={customCarouselStyles.control}>
+            <span style={Object.assign({}, customCarouselStyles.icon, { fontSize: '30px' })}>&#8249;</span>
+          </span>
+        }>
+            <Carousel.Item className='w-100 shadow-1-strong'>
+                <img
+                className="d-block w-100 rounded mb-4"
+                src={Gambar31}
+                alt="Third slide"
+                />
+            </Carousel.Item>
+            <Carousel.Item className='w-100 shadow-1-strong'>
+                <img
+                className="d-block w-100 rounded mb-4"
+                src={Gambar32}
+                alt="Third slide"
+                />
+            </Carousel.Item>
+            <Carousel.Item className='w-100 shadow-1-strong'>
+                <img
+                className="d-block w-100 rounded mb-4"
+                src={Gambar33}
+                alt="Third slide"
+                />
+            </Carousel.Item>
+            <Carousel.Item className='w-100 shadow-1-strong'>
+                <img
+                className="d-block w-100 rounded mb-4"
+                src={Gambar34}
+                alt="Third slide"
+                />
+            </Carousel.Item>
+            <Carousel.Item className='w-100 shadow-1-strong'>
+                <img
+                className="d-block w-100 rounded mb-4"
+                src={Gambar35}
                 alt="Third slide"
                 />
             </Carousel.Item>

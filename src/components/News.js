@@ -32,6 +32,11 @@ import Gambar19 from "../images/obkt2.jpg"
 import Gambar20 from "../images/obkt3.jpg"
 import Gambar21 from "../images/obkt4.jpg"
 import Gambar22 from "../images/obkt5.jpg"
+import Gambar23 from "../images/p5.jpg"
+import Gambar24 from "../images/p5-1.jpg"
+import Gambar25 from "../images/p5-2.jpg"
+import Gambar26 from "../images/p5-3.jpg"
+import Gambar27 from "../images/p5-4.jpg"
 
 
 const customCarouselStyles = {
@@ -70,6 +75,71 @@ export default function App() {
           </span>
         }>
       <Carousel.Item >
+        <img
+          className="d-block w-100"
+          src={Gambar23}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={Gambar24}
+          alt="Second slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={Gambar25}
+          alt="Third slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={Gambar26}
+          alt="Third slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={Gambar27}
+          alt="Third slide"
+        />
+      </Carousel.Item>
+    </Carousel>
+        </MDBCol>
+        <MDBCol md="6" className="mb-4">
+          <span className="badge bg-warning px-2 py-1 shadow-1-strong mb-3">
+            Terbaru
+          </span> <br/>
+          <u> 30.08.2023</u>
+          <h4 className="pt-3">
+            <strong>Kegiatan Projek Penguatan Profil Pelajar Pancasila (P5)</strong>
+          </h4>
+          <p className="text-muted">
+          SMPN 1 melaksanakan kegiatan proyek yang sangat penting yaitu "Projek Penguatan Profil Pelajar Pancasila" (P5). Kegiatan ini menandai komitmen sekolah dalam mengembangkan pemahaman siswa terhadap nilai-nilai Pancasila, yang merupakan fondasi utama dalam membangun karakter dan kepribadian yang baik. Melalui proyek ini, SMPN 1 bertujuan untuk membekali pelajar dengan pemahaman mendalam tentang nilai-nilai Pancasila dan mendorong mereka untuk menjadi warga negara yang bertanggung jawab serta menjunjung tinggi nilai-nilai luhur bangsa. Dengan upaya ini, diharapkan pelajar akan menjadi agen perubahan positif dalam masyarakat dan negara, menciptakan masa depan yang lebih baik.
+          </p>
+          {/* <MDBBtn className="mt-2">Baca lebih lanjut</MDBBtn> */}
+        </MDBCol>
+      </MDBRow>
+      <MDBRow className="gx-lg-5">
+        <MDBCol lg="4" md="6" className="mb-4 mb-lg-0">
+          <div>
+          <Carousel data-bs-theme="dark"
+         nextIcon={
+          <span style={customCarouselStyles.control}>
+            <span style={Object.assign({}, customCarouselStyles.icon, { fontSize: '30px' })}>&#8250;</span>
+          </span>
+        }
+        prevIcon={
+          <span style={customCarouselStyles.control}>
+            <span style={Object.assign({}, customCarouselStyles.icon, { fontSize: '30px' })}>&#8249;</span>
+          </span>
+        }>
+            <Carousel.Item >
         <img
           className="d-block w-100"
           src={Gambar1}
@@ -111,23 +181,26 @@ export default function App() {
           alt="Third slide"
         />
       </Carousel.Item>
-    </Carousel>
+          </Carousel>
+            <MDBRow className="mb-3">
+              <MDBCol col="6">
+                <a href="" className="text-info">
+                  <MDBIcon fas icon="plane" className="me-1" />
+                </a>
+              </MDBCol>
+              <MDBCol col="6" className="text-end">
+                <u> 29.07.2023</u>
+              </MDBCol>
+            </MDBRow>
+            <a href="#!" className="text-dark">
+              <h5>Rapat Mengenai Dana Bos Ketenagakerjaan dan Evaluasi Mingguan</h5>
+              <p>
+              Rapat evaluasi mingguan membahas penggunaan Dana Bos Ketenagakerjaan dan progres sekolah. Melibatkan kepala sekolah, guru, dan staf. Fokus utama pertemuan ini adalah untuk membahas penggunaan dana Bos Ketenagakerjaan secara efisien dan transparan dalam mendukung berbagai program sekolah. Selain itu, rapat evaluasi mingguan ini juga bertujuan untuk mengevaluasi progres dan pencapaian mingguan terhadap target dan tujuan sekolah yang telah ditetapkan.
+              </p>
+            </a>
+            <hr />
+          </div>
         </MDBCol>
-        <MDBCol md="6" className="mb-4">
-          <span className="badge bg-warning px-2 py-1 shadow-1-strong mb-3">
-            Terbaru
-          </span> <br/>
-          <u> 29.07.2023</u>
-          <h4 className="pt-3">
-            <strong>Rapat Mengenai Dana Bos Ketenagakerjaan dan Evaluasi Mingguan</strong>
-          </h4>
-          <p className="text-muted">
-          Rapat evaluasi mingguan membahas penggunaan Dana Bos Ketenagakerjaan dan progres sekolah. Melibatkan kepala sekolah, guru, dan staf. Fokus utama pertemuan ini adalah untuk membahas penggunaan dana Bos Ketenagakerjaan secara efisien dan transparan dalam mendukung berbagai program sekolah. Selain itu, rapat evaluasi mingguan ini juga bertujuan untuk mengevaluasi progres dan pencapaian mingguan terhadap target dan tujuan sekolah yang telah ditetapkan.
-          </p>
-          {/* <MDBBtn className="mt-2">Baca lebih lanjut</MDBBtn> */}
-        </MDBCol>
-      </MDBRow>
-      <MDBRow className="gx-lg-5">
         <MDBCol lg="4" md="6" className="mb-4 mb-lg-0">
           <div>
           <Carousel data-bs-theme="dark"
@@ -266,6 +339,8 @@ export default function App() {
            
           </div>
         </MDBCol>
+      </MDBRow>
+      <MDBRow className="gx-lg-5">
         <MDBCol lg="4" md="12" className="mb-4 mb-lg-0">
           <div>
           <Carousel data-bs-theme="dark"
