@@ -39,7 +39,7 @@ const Footer = () => {
                 <div className="col-lg-3 footer_col">
                   {/* Footer links */}
                   <div className="footer_section footer_links">
-                    <div className="footer_title">Contact Us</div>
+                    <div className="footer_title">Menu</div>
                     <div className="footer_links_container">
                       <ul>
                         <li><Nav.Link href={"/"}>Home</Nav.Link></li>

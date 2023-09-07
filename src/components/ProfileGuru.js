@@ -33,7 +33,9 @@ const Profile = () => {
               <div className="team_image img-fluid"><img src={KepalaPerpus} alt="kepala perpustakaan" /></div>
               <div className="team_body">
                 <div className="team_title px-2"><a href="#">Dra. Bergita Kapa</a></div>
+                <br/>
                 <div className="team_subtitle">Kepala Perpustakaan</div>
+                <br/>
               </div>
             </div>
           </div>
@@ -44,7 +46,9 @@ const Profile = () => {
               <div className="team_image img-fluid"><img src={lab} alt="kepala Laboratorium" /></div>
               <div className="team_body">
                 <div className="team_title px-2"><a href="#">Yosep Klau Bria, S.Pd<br/></a></div>
+                <br/>
                 <div className="team_subtitle">Kepala Laboratorium</div>
+                <br/>
               </div>
             </div>
           </div>
@@ -55,7 +59,9 @@ const Profile = () => {
               <div className="team_image img-fluid"><img src={Kurikulum1} alt="wakases urusan kesiswaan" /></div>
               <div className="team_body">
                 <div className="team_title px-2"><a href="#">Khadijah Haris, S.Pd</a></div>
+                <br/>
                 <div className="team_subtitle">Kurikulum</div>
+                <br/>
               </div>
             </div>
           </div>
@@ -80,6 +86,7 @@ const Profile = () => {
               <div className="team_body">
                 <div className="team_title px-2"><a href="#">Semitrianus Naklui, S.Pd</a></div>
                 <div className="team_subtitle">Pembina Osis</div>
+                <br/>
               </div>
             </div>
           </div>
@@ -91,6 +98,7 @@ const Profile = () => {
               <div className="team_body">
                 <div className="team_title px-2"><a href="#">Felix Elmi Taek, S.Pd<br/></a></div>
                 <div className="team_subtitle">Pembina Osis</div>
+                <br/>
               </div>
             </div>
           </div>
