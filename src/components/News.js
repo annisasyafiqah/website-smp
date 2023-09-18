@@ -46,6 +46,12 @@ import Gambar33 from "../images/p5-siswa6.jpg"
 import Gambar34 from "../images/p5-siswa7.jpg"
 import Gambar35 from "../images/p5-siswa8.jpg"
 import Gambar36 from "../images/p5-siswa9.jpg"
+import Gambar37 from "../images/p5-siswa10.jpg"
+import Gambar38 from "../images/p5-siswa11.jpg"
+import Gambar39 from "../images/p5-siswa12.jpg"
+import Gambar40 from "../images/p5-siswa13.jpg"
+import Gambar41 from "../images/p5-siswa14.jpg"
+import video1 from "../images/p5-siswa15.mp4"
 
 const customCarouselStyles = {
   control: {
@@ -82,7 +88,76 @@ export default function App() {
             <span style={Object.assign({}, customCarouselStyles.icon, { fontSize: '30px' })}>&#8249;</span>
           </span>
         }>
+          <Carousel.Item>
+      <video src={video1} width="600" height="300" controls="controls" autoplay="true" />
+      </Carousel.Item>
       <Carousel.Item >
+        <img
+          className="d-block w-100"
+          src={Gambar37}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={Gambar38}
+          alt="Second slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={Gambar39}
+          alt="Third slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={Gambar40}
+          alt="Third slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={Gambar41}
+          alt="Third slide"
+        />
+      </Carousel.Item>
+      
+    </Carousel>
+        </MDBCol>
+        <MDBCol md="6" className="mb-4">
+          <span className="badge bg-warning px-2 py-1 shadow-1-strong mb-3">
+            Terbaru
+          </span> <br/>
+          <u> 14.09.2023</u>
+          <h4 className="pt-3">
+            <strong>Implementasi Lanjutan Kegiatan Projek Penguatan Profil Pelajar Pancasila (P5)</strong>
+          </h4>
+          <br/>
+          <p className="text-muted">
+          Pada tanggal 14 September, SMP Negeri 1 (SMPN 1) melaksanakan pengenalan program "Projek Penguatan Profil Pelajar Pancasila" (P5) kepada siswa kelas 7. Tujuan kegiatan ini adalah memberikan pemahaman awal kepada siswa mengenai program P5 yang mencakup pembentukan karakter, pengenalan nilai-nilai Pancasila, dan penguatan akademik. Selama kegiatan tersebut, siswa diperkenalkan dengan konsep P5, materi-materi terkait Pancasila, dan mereka juga berpartisipasi dalam workshop serta aktivitas praktik untuk menginternalisasi nilai-nilai Pancasila dalam kehidupan sehari-hari. Program ini diharapkan akan membantu siswa memahami dan menerapkan nilai-nilai Pancasila dalam pembentukan karakter mereka serta menjadi bagian integral dari kurikulum sekolah.</p>
+          {/* <MDBBtn className="mt-2">Baca lebih lanjut</MDBBtn> */}
+        </MDBCol>
+      </MDBRow>
+      <MDBRow className="gx-lg-5">
+        <MDBCol lg="4" md="6" className="mb-4 mb-lg-0">
+          <div>
+          <Carousel data-bs-theme="dark"
+         nextIcon={
+          <span style={customCarouselStyles.control}>
+            <span style={Object.assign({}, customCarouselStyles.icon, { fontSize: '30px' })}>&#8250;</span>
+          </span>
+        }
+        prevIcon={
+          <span style={customCarouselStyles.control}>
+            <span style={Object.assign({}, customCarouselStyles.icon, { fontSize: '30px' })}>&#8249;</span>
+          </span>
+        }>
+            <Carousel.Item >
         <img
           className="d-block w-100"
           src={Gambar28}
@@ -145,23 +220,26 @@ export default function App() {
           alt="Third slide"
         />
       </Carousel.Item>
-    </Carousel>
+          </Carousel>
+            <MDBRow className="mb-3">
+              <MDBCol col="6">
+                <a href="" className="text-info">
+                  <MDBIcon fas icon="plane" className="me-1" />
+                </a>
+              </MDBCol>
+              <MDBCol col="6" className="text-end">
+                <u> 31.08.2023</u>
+              </MDBCol>
+            </MDBRow>
+            <a href="#!" className="text-dark">
+              <h5>Implementasi Kegiatan Projek Penguatan Profil Pelajar Pancasila (P5)</h5>
+              <p>
+              Pada tanggal 31 Agustus, SMP Negeri 1 (SMPN 1) melaksanakan pengenalan program "Projek Penguatan Profil Pelajar Pancasila" (P5) kepada siswa kelas 7. Tujuan kegiatan ini adalah memberikan pemahaman awal kepada siswa mengenai program P5 yang mencakup pembentukan karakter, pengenalan nilai-nilai Pancasila, dan penguatan akademik. Selama kegiatan tersebut, siswa diperkenalkan dengan konsep P5, materi-materi terkait Pancasila, dan mereka juga berpartisipasi dalam workshop serta aktivitas praktik untuk menginternalisasi nilai-nilai Pancasila dalam kehidupan sehari-hari. Program ini diharapkan akan membantu siswa memahami dan menerapkan nilai-nilai Pancasila dalam pembentukan karakter mereka serta menjadi bagian integral dari kurikulum sekolah.
+          </p>
+            </a>
+            <hr />
+          </div>
         </MDBCol>
-        <MDBCol md="6" className="mb-4">
-          <span className="badge bg-warning px-2 py-1 shadow-1-strong mb-3">
-            Terbaru
-          </span> <br/>
-          <u> 31.08.2023</u>
-          <h4 className="pt-3">
-            <strong>Implementasi Kegiatan Projek Penguatan Profil Pelajar Pancasila (P5)</strong>
-          </h4>
-          <br/>
-          <p className="text-muted">
-          Pada tanggal 31 Agustus, SMP Negeri 1 (SMPN 1) melaksanakan pengenalan program "Projek Penguatan Profil Pelajar Pancasila" (P5) kepada siswa kelas 7. Tujuan kegiatan ini adalah memberikan pemahaman awal kepada siswa mengenai program P5 yang mencakup pembentukan karakter, pengenalan nilai-nilai Pancasila, dan penguatan akademik. Selama kegiatan tersebut, siswa diperkenalkan dengan konsep P5, materi-materi terkait Pancasila, dan mereka juga berpartisipasi dalam workshop serta aktivitas praktik untuk menginternalisasi nilai-nilai Pancasila dalam kehidupan sehari-hari. Program ini diharapkan akan membantu siswa memahami dan menerapkan nilai-nilai Pancasila dalam pembentukan karakter mereka serta menjadi bagian integral dari kurikulum sekolah.</p>
-          {/* <MDBBtn className="mt-2">Baca lebih lanjut</MDBBtn> */}
-        </MDBCol>
-      </MDBRow>
-      <MDBRow className="gx-lg-5">
         <MDBCol lg="4" md="6" className="mb-4 mb-lg-0">
           <div>
           <Carousel data-bs-theme="dark"
@@ -305,6 +383,8 @@ export default function App() {
             <hr />
           </div>
         </MDBCol>
+      </MDBRow>
+      <MDBRow className="gx-lg-5">
         <MDBCol lg="4" md="6" className="mb-4 mb-lg-0">
           <div>
           <Carousel data-bs-theme="dark"
@@ -373,8 +453,6 @@ export default function App() {
             <hr />
           </div>
         </MDBCol>
-      </MDBRow>
-      <MDBRow className="gx-lg-5">
         <MDBCol lg="4" md="6" className="mb-4 mb-lg-0">
           <div>
           <Carousel data-bs-theme="dark"
