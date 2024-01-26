@@ -32,7 +32,7 @@ const PopularCourses = () => {
               </h2>
             </div>
             <div class="card-body">
-              <p>1. Menanamkan Keimanan, Ketakwaan Melalui Pengalaman Ajaran Agama <br/> 2. Mengembangkan Organisasi Sekolah Yang Terus Belajar (Learning Organization)<br/>3. Meningkatkan Profesionalisme dan Kompetensi Pendidik dan Tenaga Kependidikan<br/>4. Menjalin Kerjasama Yang Harmonis Antar Warga Sekolah Dengan Lembaga Lain Yang Terkait<br/>5. Membina Kemandirian Peserta Didik Melalui Kegiatan Pembiasaan Dan Pengembangan Diri Yang Terencana dan Berkesinambungan<br/>6. Meningkatkan Kesadaran Warga Sekolah Untuk Memelihara Lingkungan Sekolah<br/>7. Meningkatkan Apre... Warga Sekolah Untuk Melestarikan Budaya Lokal</p>
+              <p>1. Menanamkan Keimanan, Ketakwaan Melalui Pengalaman Ajaran Agama <br/> 2. Mengembangkan Organisasi Sekolah Yang Terus Belajar (Learning Organization)<br/>3. Meningkatkan Profesionalisme dan Kompetensi Pendidik dan Tenaga Kependidikan<br/>4. Menjalin Kerjasama Yang Harmonis Antar Warga Sekolah Dengan Lembaga Lain Yang Terkait<br/>5. Membina Kemandirian Peserta Didik Melalui Kegiatan Pembiasaan Dan Pengembangan Diri Yang Terencana dan Berkesinambungan<br/>6. Meningkatkan Kesadaran Warga Sekolah Untuk Memelihara Lingkungan Sekolah<br/>7. Meningkatkan Apresiasi Warga Sekolah Untuk Melestarikan Budaya Lokal</p>
             </div>
           </div>
         </div>
